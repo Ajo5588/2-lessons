@@ -25,9 +25,45 @@ func perCub (num:Int) {
 perCub(num: 10)
 
 func areaRect (side1:Int, side2:Int) {
-    print("S = Длина * Ширину = \(side1 * side2)")
+    print("S = Длина * Ширина = \(side1 * side2)")
     
 }
 areaRect(side1: 5, side2: 6)
 
+func areaCircle (Rad: Double) {
+    let Pi: Double = 3.14
 
+    print("S = \(Rad)*3.14 = \(Rad * Pi)")
+
+}
+areaCircle(Rad: 3)
+
+
+
+func matPlus(numb : Int, numb2 : Int){
+    
+    print("\(numb) + \(numb2) = \(numb + numb2)")
+    
+}
+matPlus(numb: 525, numb2: 728)
+
+func matMinus(numb : Int, numb2 : Int){
+    
+    print("\(numb) - \(numb2) = \(numb - numb2)")
+    
+}
+matMinus (numb: 323, numb2: 178)
+
+func matUmnoj(numb : Int, numb2 : Int){
+    
+    print("\(numb) * \(numb2) = \(numb * numb2)")
+    
+}
+matUmnoj(numb: 15, numb2: 10)
+
+func matDel(numb : Int, numb2 : Int){
+    
+    print("\(numb) : \(numb2) = \(numb / numb2)")
+    
+}
+matDel(numb: 1050, numb2: 6)
