@@ -46,6 +46,7 @@ func matPlus(numb : Int, numb2 : Int){
     
 }
 matPlus(numb: 525, numb2: 728)
+matPlus(numb: 347, numb2: 908)
 
 func matMinus(numb : Int, numb2 : Int){
     
@@ -53,6 +54,7 @@ func matMinus(numb : Int, numb2 : Int){
     
 }
 matMinus (numb: 323, numb2: 178)
+matMinus(numb: 567, numb2: 74)
 
 func matUmnoj(numb : Int, numb2 : Int){
     
@@ -60,6 +62,7 @@ func matUmnoj(numb : Int, numb2 : Int){
     
 }
 matUmnoj(numb: 15, numb2: 10)
+matUmnoj(numb: 125, numb2: 5)
 
 func matDel(numb : Int, numb2 : Int){
     
@@ -67,3 +70,4 @@ func matDel(numb : Int, numb2 : Int){
     
 }
 matDel(numb: 1050, numb2: 6)
+matDel(numb: 121, numb2: 11)
